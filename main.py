@@ -58,3 +58,6 @@ if __name__ == '__main__':
         except WebSocketException:
             print('An error occurred, but the post was most likely still submitted')
 
+        except:
+            print('Unknown error occurred')
+
